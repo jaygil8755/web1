@@ -84,9 +84,9 @@ export default function Navbar() {
 
       {/* Right: Get Started Button */}
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <button className="nav-btn" onClick={() => alert("Get Started clicked!")}>
+        <Link href="/auth" className="nav-btn" style={{ display: 'inline-block' }}>
           Get Started
-        </button>
+        </Link>
       </div>
     </nav>
   );

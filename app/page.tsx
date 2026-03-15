@@ -11,6 +11,8 @@ export default function Home() {
         title="Nailart Studio"
         subtitle="Generate beautiful, high-converting scalable SVG thumbnails in seconds."
         maxWidth={1200}
+        ctaLabel="Get Started"
+        ctaHref="/auth"
       >
         <ThumbnailGenerator />
       </AetherHero>
